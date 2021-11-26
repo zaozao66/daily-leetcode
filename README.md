@@ -17,3 +17,6 @@
 - [P162FindPeakElement寻找峰值](src/leetcode/editor/cn/P162FindPeakElement.java)（这也能二分没想到，第一次没做出来）
 ##双指针
 - [P516LongestPalindromicSubsequence删除排序链表中的重复元素 II](src/leetcode/editor/cn/P516LongestPalindromicSubsequence.java)
+- [P844BackspaceStringCompare比较含退格的字符串](src/leetcode/editor/cn/P844BackspaceStringCompare.java)（思路过于常规了，可以双指针做）
+- [P986IntervalListIntersections区间列表的交集](src/leetcode/editor/cn/P986IntervalListIntersections.java)
+- [P11ContainerWithMostWater盛最多水的容器](src/leetcode/editor/cn/P11ContainerWithMostWater.java)（这个题主要在证明）
