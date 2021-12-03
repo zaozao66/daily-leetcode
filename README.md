@@ -25,7 +25,7 @@
 - [P162FindPeakElement寻找峰值](src/leetcode/editor/cn/P162FindPeakElement.java)（这也能二分没想到，第一次没做出来）
 
 
-##双指针
+## 双指针
 - [P516LongestPalindromicSubsequence删除排序链表中的重复元素 II](src/leetcode/editor/cn/P516LongestPalindromicSubsequence.java)
 - [P844BackspaceStringCompare比较含退格的字符串](src/leetcode/editor/cn/P844BackspaceStringCompare.java)（思路过于常规了，可以双指针做）
 - [P986IntervalListIntersections区间列表的交集](src/leetcode/editor/cn/P986IntervalListIntersections.java)
@@ -33,3 +33,11 @@
 - [P438FindAllAnagramsInAString找到字符串中所有字母异位词](P438FindAllAnagramsInAString)
 - [P713SubarrayProductLessThanK乘积小于K的子数组](src/leetcode/editor/cn/P713SubarrayProductLessThanK.java)
 - [P209MinimumSizeSubarraySum长度最小的子数组](src/leetcode/editor/cn/P209MinimumSizeSubarraySum.java)
+
+## 深度/广度优先遍历
+基本小规律，找符合要求的点dfs，找最xx的点用bfs
+- [P200NumberOfIslands岛屿数量](src/leetcode/editor/cn/P200NumberOfIslands.java)
+- [P117PopulatingNextRightPointersInEachNodeIi填充每个节点的下一个右侧节点指针 II](src/leetcode/editor/cn/P117PopulatingNextRightPointersInEachNodeIi.java)
+- [P1091ShortestPathInBinaryMatrix二进制矩阵中的最短路径](src/leetcode/editor/cn/P1091ShortestPathInBinaryMatrix.java)
+- [P130SurroundedRegions被围绕的区域](src/leetcode/editor/cn/P130SurroundedRegions.java)
+- [P797AllPathsFromSourceToTarget所有可能的路径](src/leetcode/editor/cn/P797AllPathsFromSourceToTarget.java)
