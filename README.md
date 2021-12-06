@@ -18,6 +18,8 @@
 - [P377CombinationSumIv组合总和 Ⅳ](src/leetcode/editor/cn/P377CombinationSumIv.java)
 - [P343IntegerBreak整数拆分](src/leetcode/editor/cn/P343IntegerBreak.java)
 - [P279PerfectSquares完全平方数](src/leetcode/editor/cn/P279PerfectSquares.java)
+- [P487MaxConsecutiveOnesIi最大连续1的个数2](src/leetcode/editor/cn/P487MaxConsecutiveOnesIi.java)
+- [P1035UncrossedLines不相交的线](src/leetcode/editor/cn/P1035UncrossedLines.java)（与1143最长公共子序列相同）
 
 ## 二分查找
 二分查找永远需要注意细节
@@ -41,3 +43,10 @@
 - [P1091ShortestPathInBinaryMatrix二进制矩阵中的最短路径](src/leetcode/editor/cn/P1091ShortestPathInBinaryMatrix.java)
 - [P130SurroundedRegions被围绕的区域](src/leetcode/editor/cn/P130SurroundedRegions.java)
 - [P797AllPathsFromSourceToTarget所有可能的路径](src/leetcode/editor/cn/P797AllPathsFromSourceToTarget.java)
+- [P265PaintHouseIi粉刷房子2](src/leetcode/editor/cn/P265PaintHouseIi.java)
+
+## 递归/回溯
+- [P78Subsets子集](src/leetcode/editor/cn/P78Subsets.java)
+- [P90SubsetsIi子集2](src/leetcode/editor/cn/P90SubsetsIi.java)
+- [P47PermutationsIi全排列2](src/leetcode/editor/cn/P47PermutationsIi.java)
+- [P39CombinationSum组合总和](src/leetcode/editor/cn/P39CombinationSum.java)
