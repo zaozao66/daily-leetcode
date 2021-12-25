@@ -25,7 +25,8 @@
 二分查找永远需要注意细节
 - [P153FindMinimumInRotatedSortedArray寻找旋转排序数组中的最小值](src/leetcode/editor/cn/P153FindMinimumInRotatedSortedArray.java)
 - [P162FindPeakElement寻找峰值](src/leetcode/editor/cn/P162FindPeakElement.java)（这也能二分没想到，第一次没做出来）
-
+- [P1901FindAPeakElementIi寻找峰值2](src/leetcode/editor/cn/P1901FindAPeakElementIi.java)（与上一道题相同）
+- [maximizeSweetness分享巧克力](src/leetcode/editor/cn/P1231DivideChocolate.java)
 
 ## 双指针
 - [P516LongestPalindromicSubsequence删除排序链表中的重复元素 II](src/leetcode/editor/cn/P516LongestPalindromicSubsequence.java)
@@ -50,3 +51,10 @@
 - [P90SubsetsIi子集2](src/leetcode/editor/cn/P90SubsetsIi.java)
 - [P47PermutationsIi全排列2](src/leetcode/editor/cn/P47PermutationsIi.java)
 - [P39CombinationSum组合总和](src/leetcode/editor/cn/P39CombinationSum.java)
+- [P254FactorCombinations因子的组合](src/leetcode/editor/cn/P254FactorCombinations.java)
+
+## 贪心算法
+- [P630CourseScheduleIii课程表3](src/leetcode/editor/cn/P630CourseScheduleIii.java)
+
+## 优先队列
+- [P1705MaximumNumberOfEatenApples](src/leetcode/editor/cn/P1705MaximumNumberOfEatenApples.java)

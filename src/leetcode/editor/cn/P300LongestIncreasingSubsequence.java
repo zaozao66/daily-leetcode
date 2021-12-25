@@ -54,25 +54,36 @@ import java.util.Arrays;
 public class P300LongestIncreasingSubsequence {
     public static void main(String[] args) {
         Solution solution = new P300LongestIncreasingSubsequence().new Solution();
-        solution.lengthOfLIS(new int[]{1,3,6,7,9,4,10,5,6});
+        solution.lengthOfLIS(new int[]{4,10,4,3,8,9});
     }
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
-    public int lengthOfLIS(int[] nums) {
-        int[] dp = new int[nums.length];
-        int max = 1;
-        Arrays.fill(dp, 1);
-        for (int i = 1; i < nums.length; i++) {
-            for (int j = 0; j < i; j++) {
-                if (nums[i] > nums[j]) {
-                    dp[i] = Math.max(dp[i], dp[j] + 1);
-
+        public int lengthOfLIS(int[] nums) {
+            int[] arr = new int[nums.length];
+            arr[0] = nums[0];
+            int len = 1;
+            for (int i = 1; i < nums.length; i++) {
+                if (nums[i] > arr[len-1]) {
+                    arr[len] = nums[i];
+                    len++;
+                } else {
+                    int left = 0;
+                    int right = len - 1;
+                    while (left < right) {
+                        int mid = (right -left) / 2 + left;
+                        if (arr[mid] < nums[i]) {
+                            left = mid + 1;
+                        } else {
+                            right = mid;
+                        }
+                    }
+                    if (arr[right] > nums[i]) {
+                        arr[right] = nums[i];
+                    }
                 }
             }
-            max = Math.max(max, dp[i]);
+            return len;
         }
-        return max;
-    }
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
